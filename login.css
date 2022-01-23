@@ -1,0 +1,70 @@
+body {
+    /* Change background to a gradient on a 180 degree angle from purple to dark purple and black */
+    background-image: linear-gradient(180deg, purple, rgb(41, 40, 40));
+}
+
+
+.container {
+    /* links to the container class in index.html */
+    position: relative;
+    /* defines the position of the container relative to the rest of the .html*/
+    width: 900px;
+    /* sets the width of the container to 900 pixels */
+    font-size: 14px;
+    /* sets font size to 14 pixels */
+    color: azure;
+    /* defines the text color */
+    font-family: 'Courier New', Courier, monospace;
+    /*defines text font */
+}
+
+.button {
+    /* defines styling of the .button class in index.html */
+    size: 100px;
+    /* sets .button size to 100 pixels */
+    width: 100px;
+    /* sets .button width to 100 pixels */
+    height: 20px;
+    /* sets .button height to 20 pixels */
+    border: 1px;
+    /* sets border to 1 pixel */
+    border-color: black;
+    /* sets border color to black */
+    border-style: solid;
+    /* sets border style to solid */
+    border-radius: 10px;
+    /* sets border radius size to 10 pixels to round the edges */
+    background-color: rgb(61, 61, 61);
+    /* sets background color to grey */
+    color: rgb(0, 183, 255);
+    /* sets text color to light blue */
+    box-shadow: 0 2px 8px 0 black;
+    /* adds small drop shadow */
+    font-family: 'Courier New', Courier, monospace;
+    /*defines text font */
+    font-weight: bolder;
+    /*makes text bolder */
+}
+
+.button:hover {
+    /* defines the action when button is hovered over */
+    background: rgba(238, 238, 238, 0.349);
+    /* sets .button element color when mouse is hovered over it */
+    cursor: pointer;
+    /* changes the cursor to a pointer when mouse is hovered over it */
+}
+
+h2 {
+    font-weight: bolder;
+    /*makes text bolder */
+    font-family: 'Courier New', Courier, monospace;
+    /*defines text font */
+    color: rgb(0, 183, 255);
+    /* sets text color to light blue */
+    background-color: rgb(61, 61, 61);
+    /* sets background color to grey */
+    border-radius: 10px;
+    /* sets border radius size to 10 pixels to round the edges */
+    box-shadow: 0 2px 8px 0 black;
+    /* adds small drop shadow */
+}
