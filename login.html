@@ -1,0 +1,39 @@
+<!--Operator Login for UAT Space Program
+    writtten by: Rachel Boese
+    -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="loginCode.js"></script>
+
+    <title>
+        UAT Space Login Page
+    </title>
+
+</head>
+
+<body>
+    <h1>
+        Welcome to the UAT Space login page, please log in.
+    </h1>
+    <p id="loginStatus">
+        Status of login...
+    </p>
+    <!--Create a form for user input of first name, last name, and badge number-->
+    <form id="creditSubmit" onsubmit="return false">
+        First Name: <input type="text" id="fName" /> <br>
+        <!--create input for first name-->
+        Last Name: <input type="text" id="lName" /> <br>
+        <!--create input for last name-->
+        Badge Number: <input type="number" id="badgeID" /> <br>
+        <!--create input for badge number-->
+        <input type="submit" onclick="checkCreds();" />
+        <!--create submit button, and on click run checkCreds()-->
+
+    </form>
+</body>
+
+</html>
