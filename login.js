@@ -9,7 +9,7 @@ function checkCreds() { //creates new function "checkCreds"
     //validate full name
     if (fullName.length > 20 || fullName.length < 2) { //if the full name length is greater than 20 char or less than 2 char
         document.getElementById("loginStatus").innerHTML = "Invalid full name, please resubmit."; //print invalid full name message to loginStatus on .html.
-    } else if (badgeNumb > 999 || badgeNumb < 1) { //if the badge number is greater than 999 char or less than 1 char
+    } else if (badgeNumb > 999 || badgeNumb < 100) { //if the badge number is greater than 999 char or less than 1 char
         document.getElementById("loginStatus").innerHTML = "Invalid badge number, please resubmit."; //print invalid badge number message to loginStatus on .html
 
     } else { //if the conditions above are not met, perform these actions.
